@@ -2,6 +2,7 @@ import { connect } from 'react-redux';
 import Search from './../components/Search.js';
 import handleSearchChange from '../actions/search.js';
 
+// This wasn't needed for the search function
 const mapStateToProps = (state) => {
   return {
     videoList: state.videoList
