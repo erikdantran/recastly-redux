@@ -16,6 +16,7 @@ var VideoList = ({videos, handleVideoListEntryTitleClick}) => (
   </div>
 );
 
+
 VideoList.propTypes = {
   videos: PropTypes.array.isRequired
 };
